@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7a7a7a;
+}
+
+.areaPrincipal{ /*Asi se define una clase*/
+    background-image:url(../IMG/fondo.jpg); /*Agregar fondo de imagen al div*/
+    background-repeat: no-repeat; /*Permitir o no que se repita una imagen*/
+    width: 100%;
+    height: auto;
+    opacity: 0.7; /*Opacidad de la imagen*/
+    -webkit-background-size: 100% 100%; /*Safari 3.0*/
+    -moz-background-size: 100% 100%; /*Gecko 1.9.2 (Firefox 3.6)*/
+    -o-background-size: 100% 100%; /*Opera 9.5*/
+    background-size: 100% 100%; /*Gecko 2.0 (Firefox 4.0) and other CSS3-compilant browsers*/
+}
+
+#encabezado{
+    background: #F4A10B;
+    height: 240px;
+    text-align: center;
+    background-image: url("../IMG/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+
+.piePagina{
+    width: 100% /*Ancho*/;
+    height: 100px; /*Alto*/
+    background: #15101b;
+    color: white;
+    bottom: 0; /*Espacio de separacion parte inferior*/
+    position: fixed;
+    left: 0; /*Alineacion de contenidos a la izquierda*/
+    text-align: center;
+    align-content: center;
+}
+
+#menu{ /*Identificador*/
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+#menu .active{
+        background-color: #e94707;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
+}
+
+#datos{
+    width: 80%;
+    background-color: #F55028;
+    height: 100%;
+    margin: auto;
+    opacity: 1;
+    color: #2a3e55;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+#datos img{
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
